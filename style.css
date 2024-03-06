@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    color: rgb(96, 243, 253);
+
+}
+body{
+    background-image:url(img/bg3.jpg);
+    background-size:contain;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    padding-top: 40px;
+
+}
+
+nav .name {
+    padding: 0px 50px;
+    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li {
+    display: inline;
+    
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    padding: 0px 30px;
+
+}
+
+li a:hover {
+    color: rgb(78, 192, 192);
+    text-decoration: underline;
+    /* font-weight: bold; */
+}
+
+.header-container {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.right {
+    display: inline-block;
+    padding: 100px 20px;
+}
+
+.right p {
+    display: flex;
+    align-items: center;
+}
+
+.right h1 {
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right h2 {
+    display: flex;
+    align-items: center;
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 1rem;
+
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(103, 103, 103);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-dark {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn-dark:hover {
+    background-color:rgb(100, 100, 100);
+    color: white;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(113, 113, 113);
+    margin-top: 110px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+
+.about-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-left {
+    display: flex;
+    justify-content: center;
+}
+
+.about-left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about-right {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxa {
+    position: absolute;
+    right: 100px;
+    bottom: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.boxa h4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.boxa p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matter {
+    position: relative;
+    top: 50px;
+    left: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.matter1 {
+    position: absolute;
+    right: 30px;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.experience {
+    position: relative;
+    /* color: white; */
+}
+
+.ex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   color: rgb(126, 126, 126);
+}
+
+.ex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.ex3 {
+    margin: 50px 150px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.project {
+    position: relative;
+    padding: 60px 0px;
+}
+
+.project-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: gray;
+}
+
+.project-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.p1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.p1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.skill {
+    padding: 100px 0px;
+}
+
+.skills-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: gray;
+}
+
+.skills-h {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.skills-container {
+    margin-top: 50px;
+
+}
+
+.basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: gray;
+}
+
+.contact-h {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.img1 img {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+    padding: 0px 5px;
+}
+
+.img2 img {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+    padding: 0px 5px;
+}
+
+.img3 img {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+    padding: 0px 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 8vh;
+}
