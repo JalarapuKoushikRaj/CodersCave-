@@ -2,19 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: Lavender;
 }
 
 #chat-container {
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: Azure;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 #message-container {
     height: 300px;
     overflow-y: scroll;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid LightSlateGray;
     margin-bottom: 10px;
 }
 
@@ -25,7 +28,7 @@ body {
 }
 
 .own-message {
-    background-color: #DCF8C6;
+    background-color: LemonChiffon;
     align-self: flex-end;
 }
 
@@ -36,34 +39,44 @@ body {
 
 .timestamp {
     font-size: 0.8em;
-    color: #666;
+    color: DimGray;
 }
 
 #input-container {
     display: flex;
 }
 
-#username-input {
-    width: 30%;
-    margin-right: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
+#username-input,
 #message-input {
     flex: 1;
     margin-right: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid LightSlateGray;
     border-radius: 5px;
 }
 
 #send-button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: MediumAquamarine;
+    color: White;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: DarkCyan;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: LightSlateGray;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: SlateGray;
 }
